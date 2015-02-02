@@ -1,0 +1,9 @@
+CACHE MANIFEST
+# Version: 1.3
+index.html
+photo_model.js
+photo_controller.js
+photo_controller_web.js
+photo.png
+photo.css
+favicon.ico

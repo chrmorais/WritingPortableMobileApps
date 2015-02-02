@@ -1,0 +1,84 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Helvetica;
+	background: black;
+	color: #c0c0c0;
+}
+
+table {
+	margin	: 0;
+	border-width: 	0px;
+	padding: 0;
+}
+
+td {
+	padding: 0;
+	margin: 0;
+	text-align: left;
+}
+
+input {
+	text-align: right;
+	font-family: Helvetica;
+	padding: 10px; 
+	width: 180px;
+	font-size: 27px;
+	border: 1px solid black;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px; 
+	margin: 5px 5px 0px 10px;
+}
+
+.mybutton {
+	font-family: Helvetica;
+	padding: 5px; 
+	width: 65px;
+	border: 1px solid black;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px; 
+	background-color: #808080;
+	color: black;
+	font-size: 40px;
+	margin: 5px 1px 0px 0px;
+}
+
+select.myselect {
+	font-family: Helvetica;
+	border: 1px solid black;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px; 
+	font-size: 27px;
+	margin: 5px 1px 0px 0px;
+	background-color: #c0c0c0;
+	color: black;
+}
+
+td.value {
+	font-family: Helvetica;
+	padding: 10px; 
+	font-size: 27px;
+	margin: 5px 1px 0px 0px;
+	width: 5em;
+	color: yellow;
+}
+
+td.value2 {
+	font-family: Helvetica;
+	padding: 10px; 
+	font-size: 27px;
+	margin: 5px 1px 0px 0px;
+	color: yellow;
+}
+
+td.evdesc {
+	font-family: Serif;
+	font-style: italic;
+	font-size: 20px;
+	padding: 10px; 
+	margin: 5px 1px 0px 0px;
+	color: yellow;
+}
+
+.mybutton:focus { outline:none; }
+.myselect:focus { outline:none; }

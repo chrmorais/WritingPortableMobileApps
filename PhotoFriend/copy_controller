@@ -1,0 +1,7 @@
+#!/bin/bash
+
+for eee in $(find . -name 'photo_controller.js'); do
+	if [ "$eee" != "./web/photo_controller.js" ]; then
+		cp -i web/photo_controller.js $eee
+	fi
+done

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:keepScreenOn="true"
+    android:orientation="vertical" >
+
+    <br.com.epx.photor.MySlider
+        android:id="@+id/ev"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/evdesc"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:minHeight="30dp"
+        android:textColor="#ffff00"
+        android:textSize="18dp" />
+
+    <br.com.epx.photor.MySlider
+        android:id="@+id/iso"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <br.com.epx.photor.MySlider
+        android:id="@+id/shutter"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <br.com.epx.photor.MySlider
+        android:id="@+id/aperture"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <br.com.epx.photor.MySlider
+        android:id="@+id/focallength"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <br.com.epx.photor.MySlider
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:minHeight="50dp"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/dof"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="50dp"
+            android:minHeight="50dp"
+            android:textColor="#ffff00"
+            android:textSize="30dp" />
+        <ImageButton
+            android:id="@+id/shoot"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:src="@drawable/button"
+            android:scaleType="centerInside"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+
+</LinearLayout>

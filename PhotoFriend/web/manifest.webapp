@@ -1,0 +1,25 @@
+{
+  "name": "Photo Friend",
+  "description": "Photo utility",
+  "launch_path": "/index.html",
+  "icons": {
+    "30": "/icon30.png",
+    "32": "/icon32.png",
+    "60": "/icon60.png",
+    "90": "/icon90.png",
+    "120": "/icon120.png",
+    "128": "/icon128.png",
+    "256": "/icon256.png"
+  },
+  "developer": {
+    "name": "Elvis Pfützenreuter",
+    "url": "https://epx.com.br/wpma/photo"
+  },
+  "default_locale": "en",
+  "orientation": ["portrait-primary"],
+  "fullscreen": "true",
+  "version": "1.2",
+  "installs_allowed_from": [
+  	"https://marketplace.firefox.com"
+  ]
+}

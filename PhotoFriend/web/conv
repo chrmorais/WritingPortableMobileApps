@@ -1,0 +1,5 @@
+#!/bin/bash
+
+for eee in 120 128 256 30 32 60 90; do
+	convert photo_orig.png -resize "${eee}x${eee}!" icon${eee}.png
+done

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html manifest="cache.manifest">
+<head>
+<title>Photo Friend</title> 
+<link rel=STYLESHEET href="photo.css" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="user-scalable=0, width=320"/>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<SCRIPT SRC="photo_model.js" TYPE="text/javascript"></script>
+<SCRIPT SRC="photo_controller.js" TYPE="text/javascript"></script>
+<SCRIPT SRC="photo_controller_wp8.js" TYPE="text/javascript"></script>
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="photo.png"/>
+</head>
+<body>
+<table>
+	<tr>
+		<td class=value>
+			<span id=ev>EV 17</span>
+		</td>
+		<td>
+			<button id="ev1" class="mybutton">&minus;</button>
+			<button id="ev2" class="mybutton">+</button>
+		</td>
+	</tr>
+	<tr>
+		<td class=evdesc colspan=2>
+			<span id=evdesc>Bright sun + snow</span>
+		</td>
+	</tr>
+	<tr>
+		<td class=value>
+			<span id=iso>ISO 100</span>
+		</td>
+		<td>
+			<button id="iso1" class="mybutton">&minus;</button>
+			<button id="iso2" class="mybutton">+</button>
+		</td>
+	</tr>
+	<tr>
+		<td class=value>
+			<span id=shutter>1/1000</span>
+		</td>
+		<td>
+			<button id="shutter1" class="mybutton">&minus;</button>
+			<button id="shutter2" class="mybutton">+</button>
+		</td>
+	</tr>
+	<tr>
+		<td class=value>
+			<span id=aperture>f/2</span>
+		</td>
+		<td>
+			<button id="aperture1" class="mybutton">&minus;</button>
+			<button id="aperture2" class="mybutton">+</button>
+		</td>
+	</tr>
+	<tr>
+		<td class=selectlabel>
+			Focal length
+		</td>
+		<td class=select>
+			<select id=focallength class=myselect>
+			</select>
+		</td>
+	</tr>
+	<!--
+	<tr>
+		<td class=selectlabel>
+			Sensor size
+		</td>
+		<td class=select>
+			<select id=sensor class=myselect>
+			</select>
+		</td>
+	</tr>
+	-->
+	<tr>
+		<td class=selectlabel>
+			Subject distance	
+		</td>
+		<td class=select>
+			<select id=distance class=myselect>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			Depth of field<br>
+			<font style="font-size: 50%">v1.1</font>
+		</td>
+		<td class=value2>
+			<span id=near>0.94m</span> to <span id=far>1.06m</span>
+		</td>
+	</tr>
+</table>
+
+</body>
+</html>

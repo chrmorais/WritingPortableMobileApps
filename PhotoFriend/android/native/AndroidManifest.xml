@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="1" android:versionName="1.0" package="br.com.epx.photor" xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto">
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="14"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-feature android:name="android.hardware.camera"
+                  android:required="false" />
+   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+                     android:maxSdkVersion="18" />
+    
+    <application android:allowBackup="true"
+         android:description="@string/app_desc" android:icon="@drawable/icon"
+         android:label="@string/app_name" android:theme="@android:style/Theme.NoTitleBar">
+        <activity android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name" android:name=".photorActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>

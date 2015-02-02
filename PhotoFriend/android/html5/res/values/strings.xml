@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Photo Friend</string>
+    <string name="app_desc">HTML5 Photography Utility</string>
+    <string name="app_about">Photo Friend version @@\n&#169; 2014 Elvis Pfützenreuter\nhttp://epx.com.br</string>
+    <string name="back">Back</string>
+</resources>
