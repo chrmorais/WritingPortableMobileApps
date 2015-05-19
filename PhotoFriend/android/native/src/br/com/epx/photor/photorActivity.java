@@ -75,8 +75,8 @@ public class photorActivity extends Activity {
 
         timer.postDelayed(new Runnable() {
             public void run() {
-                // model = new RhinoModel(self);
-                model = new HiddenModel(self);
+                model = new RhinoModel(self);
+                // model = new HiddenModel(self);
             }
         }, 0);
     }
